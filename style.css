@@ -7,6 +7,7 @@ body {
   padding: 40px;
   margin-left: auto;
   margin-right: auto;
+
   border: 2px solid rgb(139, 29, 29);
 }
 p {
@@ -50,6 +51,7 @@ div h1 {
 }
 .common-section {
   display: flex;
+  margin-top: 60px;
 }
 .dustbin1 {
   width: 25%;
@@ -78,12 +80,32 @@ ul {
 .highlights {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 100px;
+  margin-top: 80px;
   gap: 25px;
   padding: 20px;
   border-radius: 10px;
   border: 2px solid #3dd654;
   box-shadow: 0px 0px 2px rgba(196, 196, 196, 0.87);
+}
+.highlights02 {
+  display: flex;
+  justify-content: space-evenly;
+
+  gap: 25px;
+  padding: 20px;
+}
+.highlightArticle02 {
+  margin-top: 90px;
+  border-radius: 10px;
+  border: 2px solid #3dd654;
+  box-shadow: 0px 0px 2px rgba(196, 196, 196, 0.87);
+}
+.recycleH2 {
+  font-weight: 600;
+  padding-left: 25px;
+  padding-top: 25px;
+  margin-bottom: 7px;
+  font-size: 34px;
 }
 .testimony-icon {
   margin-left: 7px;
@@ -113,6 +135,7 @@ a {
   background-color: #49e060;
 }
 aside {
+  font-size: 18px;
   display: flex;
   margin-top: 30px;
   align-items: center;
@@ -120,4 +143,7 @@ aside {
 }
 .copyright {
   font-size: 16px;
+}
+a:hover {
+  color: rgb(243, 243, 243);
 }
